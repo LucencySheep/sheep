@@ -1,4 +1,4 @@
-package myjfexdialog;
+package jfexdialog;
 
 import com.jfoenix.controls.JFXButton;
 
@@ -10,7 +10,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class MainWindow extends Application {
-    //????????????
     static Stage stage = new Stage();
     private JFXButton button = new JFXButton("??");
     private Group group = new Group(button);
@@ -19,7 +18,6 @@ public class MainWindow extends Application {
 
     @Override
     public void start(Stage arg0) throws Exception {
-        //????
         button.setOnAction(new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent arg0) {
@@ -27,7 +25,6 @@ public class MainWindow extends Application {
             }
         });
         
-        //?????
         stage.setHeight(500);
         stage.setWidth(1000);
         stage.setX(500);

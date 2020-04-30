@@ -1,4 +1,4 @@
-package myjfexdialog;
+package jfexdialog;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.application.Application;
